@@ -1,0 +1,91 @@
+@import "reset";
+
+
+$myFont:national-park, sans-serif;
+$primaryColor:#D9EAFB;
+$secondayColor: #E9F3FC;
+
+
+
+body{
+    color: white;
+    font-family: $myFont;
+}
+
+.style-img{
+    background-image: url(../img/hero.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    
+      
+}
+
+
+
+header {
+    nav{
+        display: flex;
+        justify-content: space-between;
+          
+    }
+
+    div{
+       
+        display: flex;  
+    }
+
+
+    ul{
+        display: flex;
+        gap: 20px;
+        
+        
+    }
+
+    li{
+        
+        list-style-type: none;  
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+  
+    }
+
+    a:hover {
+        border-bottom: 2px white solid;
+        
+    }
+}
+
+
+main{
+    .style-hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    a{
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 10px 100px;
+        color: white;
+        font-size: 20px; 
+    }
+
+    a:hover{
+        font-size: 22px;
+       
+    }
+}
